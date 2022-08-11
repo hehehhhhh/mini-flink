@@ -9,5 +9,8 @@
         <module name="mini-flink" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mini-flink" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
