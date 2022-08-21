@@ -5,79 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1f856c-68e4-4ace-9435-4d8aa56e50d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/common/ExecutionConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/datastream/DataStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/datastream/DataStreamSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/datastream/KeyedStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/datastream/SingleOutputStreamOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/environment/LocalStreamEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/environment/RemoteStreamEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/environment/StreamExecutionEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/environment/StreamExecutionEnvironmentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/eventime/TimeCharacteristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/FlatMapFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/KeySelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/MapFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/ReduceFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/SinkFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/SourceFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/context/RuntimeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/functions/context/StreamingRuntimeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/graph/streamgrapg/Pipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/graph/streamgrapg/StreamEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/graph/streamgrapg/StreamGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/graph/streamgrapg/StreamNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/AbstractStreamOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/AbstractUdfStreamOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/ChainingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/DataStreamSink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/OneInputStreamOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/StreamFlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/StreamMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/StreamOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/StreamSink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/StreamSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/StreamSourceContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/factory/AbstractStreamOperatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/factory/SimpleOperatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/factory/StreamOperatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/output/Collector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/output/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/operators/output/TimestampedCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/LegacySourceTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/OneInputTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/PartitionTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/PhysicalTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/ReduceTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/StreamExchangeMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/transformations/Transformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/execution/DefaultExecutorServiceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/execution/JobClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/execution/PipelineExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/execution/PipelineExecutorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/execution/PipelineExecutorServiceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/runtime/partitioner/ChannelSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/runtime/partitioner/KeyGroupRangeAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/runtime/partitioner/KeyGroupStreamPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/runtime/partitioner/StreamPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/runtime/streamrecord/StreamRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/runtime/tasks/StreamTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Tuple2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Tuple3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini-flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mini-flink.iml" afterDir="false" />
     </list>
@@ -118,19 +54,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="api.transformations" />
