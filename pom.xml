@@ -4,9 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>org.bytedancecampus</groupId>
     <artifactId>mini-flink</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>core</module>
+        <module>streaming</module>
+        <module>annotations</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

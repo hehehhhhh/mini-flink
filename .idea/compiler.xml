@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mini-flink" />
+        <module name="core" />
+        <module name="annotations" />
+        <module name="streaming" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mini-flink" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
