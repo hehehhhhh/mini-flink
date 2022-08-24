@@ -16,19 +16,15 @@
  * limitations under the License.
  */
 
-package streaming.api.transformations;
+package api.common.functions;
 
-import annotation.Internal;
+import annotation.Public;
 
 /**
- * An interface to be implemented by transformations that have explicitly set {@link Boundedness}.
+ * The base interface for all user-defined functions.
+ *
+ * <p>This interface is empty in order to allow extending interfaces to be SAM (single abstract
+ * method) interfaces that can be implemented via Java 8 lambdas.
  */
-@Internal
-public interface WithBoundedness {
-
-    /**
-     * Returns the {@link Boundedness} of this {@link api.dag.Transformation
-     * Transformation}.
-     */
-    Boundedness getBoundedness();
-}
+@Public
+public interface Function extends java.io.Serializable {}

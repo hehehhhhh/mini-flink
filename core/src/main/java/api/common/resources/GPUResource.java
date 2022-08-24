@@ -16,19 +16,32 @@
  * limitations under the License.
  */
 
-package streaming.api.transformations;
+package api.common.resources;
 
 import annotation.Internal;
 
+import java.math.BigDecimal;
+
 /**
- * An interface to be implemented by transformations that have explicitly set {@link Boundedness}.
+ * The GPU resource.
  */
 @Internal
-public interface WithBoundedness {
+public class GPUResource extends Resource {
 
-    /**
-     * Returns the {@link Boundedness} of this {@link api.dag.Transformation
-     * Transformation}.
-     */
-    Boundedness getBoundedness();
+	private static final long serialVersionUID = -2276080061777135142L;
+
+	public static final String NAME = "GPU";
+
+	public GPUResource(double value) {
+		super(NAME, value);
+	}
+
+	private GPUResource(BigDecimal value) {
+		super(NAME, value);
+	}
+
+	@Override
+	public Resource create(BigDecimal value) {
+		return new GPUResource(value);
+	}
 }

@@ -19,6 +19,8 @@ package streaming.api.datastream;
 
 import annotation.Public;
 import api.common.typeinfo.TypeInformation;
+import api.connector.source.Boundedness;
+import api.connector.source.Source;
 import streaming.api.environment.StreamExecutionEnvironment;
 import streaming.api.operators.StreamSource;
 import streaming.api.transformations.LegacySourceTransformation;

@@ -16,19 +16,27 @@
  * limitations under the License.
  */
 
-package streaming.api.transformations;
+package api.common.resources;
 
 import annotation.Internal;
 
-/**
- * An interface to be implemented by transformations that have explicitly set {@link Boundedness}.
- */
-@Internal
-public interface WithBoundedness {
+import java.math.BigDecimal;
 
-    /**
-     * Returns the {@link Boundedness} of this {@link api.dag.Transformation
-     * Transformation}.
-     */
-    Boundedness getBoundedness();
+/** An external resource. */
+@Internal
+public class ExternalResource extends Resource<ExternalResource> {
+    private static final long serialVersionUID = 1L;
+
+    public ExternalResource(String name, double value) {
+        super(name, value);
+    }
+
+    private ExternalResource(String name, BigDecimal value) {
+        super(name, value);
+    }
+
+    @Override
+    protected ExternalResource create(BigDecimal value) {
+        return new ExternalResource(getName(), value);
+    }
 }

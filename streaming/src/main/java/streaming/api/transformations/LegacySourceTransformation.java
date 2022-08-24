@@ -21,7 +21,6 @@ package streaming.api.transformations;
 import annotation.Internal;
 import annotation.VisibleForTesting;
 import api.common.typeinfo.TypeInformation;
-import api.connector.source.Boundedness;
 import api.dag.Transformation;
 import streaming.api.operators.SimpleOperatorFactory;
 import streaming.api.operators.StreamOperatorFactory;

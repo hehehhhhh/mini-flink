@@ -21,8 +21,6 @@ import annotation.Internal;
 import annotation.Public;
 import annotation.PublicEvolving;
 import api.common.ExecutionConfig;
-import api.common.functions.FilterFunction;
-import api.common.functions.FlatMapFunction;
 import api.common.functions.MapFunction;
 import api.common.operators.ResourceSpec;
 import api.common.typeinfo.TypeInformation;

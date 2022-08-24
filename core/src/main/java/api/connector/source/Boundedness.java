@@ -18,7 +18,7 @@
 
 package api.connector.source;
 
-import annotation.PublicEvolving;
+import org.apache.flink.annotation.PublicEvolving;
 
 /**
  * The boundedness of a stream. A stream could either be "bounded" (a stream with finite records) or
